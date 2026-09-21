@@ -1,0 +1,160 @@
+<mxfile host="Electron">
+  <diagram name="ToysGroup - Schema ER (Chen)" id="toysgroup-er">
+    <mxGraphModel dx="1938" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="Category" vertex="1">
+          <mxGeometry height="60" width="160" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_key" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=5;" value="CategoryName" vertex="1">
+          <mxGeometry height="50" width="130" x="60" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_d1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="TargetAgeGroup" vertex="1">
+          <mxGeometry height="50" width="130" x="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_d2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Material" vertex="1">
+          <mxGeometry height="50" width="130" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="prod" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Product" vertex="1">
+          <mxGeometry height="60" width="160" x="80" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_key" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=5;" value="ProductID" vertex="1">
+          <mxGeometry height="50" width="130" x="60" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_d1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="ProductName" vertex="1">
+          <mxGeometry height="50" width="130" x="220" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_d2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="UnitPrice" vertex="1">
+          <mxGeometry height="50" width="130" x="380" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_d3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Brand" vertex="1">
+          <mxGeometry height="50" width="130" x="540" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_cat_prod" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Includes" vertex="1">
+          <mxGeometry height="70" width="110" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="state" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="State" vertex="1">
+          <mxGeometry height="60" width="160" x="820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="state_key" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=5;" value="StateName" vertex="1">
+          <mxGeometry height="50" width="130" x="800" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="state_d1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Country" vertex="1">
+          <mxGeometry height="50" width="130" x="960" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="region" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Region" vertex="1">
+          <mxGeometry height="60" width="160" x="820" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="region_key" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=5;" value="RegionID" vertex="1">
+          <mxGeometry height="50" width="130" x="800" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="region_d1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="RegionName" vertex="1">
+          <mxGeometry height="50" width="130" x="960" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="region_d2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Continent" vertex="1">
+          <mxGeometry height="50" width="130" x="1120" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_state_region" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Includes" vertex="1">
+          <mxGeometry height="70" width="110" x="860" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="sales" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" value="Sales" vertex="1">
+          <mxGeometry height="60" width="160" x="460" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="sales_key" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=5;" value="TransactionID" vertex="1">
+          <mxGeometry height="50" width="130" x="440" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="sales_d1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Quantity" vertex="1">
+          <mxGeometry height="50" width="130" x="600" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="sales_d2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Amount" vertex="1">
+          <mxGeometry height="50" width="130" x="760" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="sales_d3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="SaleDate" vertex="1">
+          <mxGeometry height="50" width="130" x="920" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_prod_sales" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Venduto in" vertex="1">
+          <mxGeometry height="70" width="110" x="140" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_region_sales" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Registrato in" vertex="1">
+          <mxGeometry height="70" width="110" x="900" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_key" edge="1" parent="1" source="cat_key" style="endArrow=none;html=1;fontSize=11;" target="cat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_d1" edge="1" parent="1" source="cat_d1" style="endArrow=none;html=1;fontSize=11;" target="cat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_d2" edge="1" parent="1" source="cat_d2" style="endArrow=none;html=1;fontSize=11;" target="cat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prod_key" edge="1" parent="1" source="prod_key" style="endArrow=none;html=1;fontSize=11;" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prod_d1" edge="1" parent="1" source="prod_d1" style="endArrow=none;html=1;fontSize=11;" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prod_d2" edge="1" parent="1" source="prod_d2" style="endArrow=none;html=1;fontSize=11;" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prod_d3" edge="1" parent="1" source="prod_d3" style="endArrow=none;html=1;fontSize=11;" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_rel" edge="1" parent="1" source="cat" style="endArrow=none;html=1;fontSize=11;" target="rel_cat_prod" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rel_prod" edge="1" parent="1" source="rel_cat_prod" style="endArrow=none;html=1;fontSize=11;" target="prod" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_state_key" edge="1" parent="1" source="state_key" style="endArrow=none;html=1;fontSize=11;" target="state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_state_d1" edge="1" parent="1" source="state_d1" style="endArrow=none;html=1;fontSize=11;" target="state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_region_key" edge="1" parent="1" source="region_key" style="endArrow=none;html=1;fontSize=11;" target="region">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_region_d1" edge="1" parent="1" source="region_d1" style="endArrow=none;html=1;fontSize=11;" target="region">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_region_d2" edge="1" parent="1" source="region_d2" style="endArrow=none;html=1;fontSize=11;" target="region">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_state_rel" edge="1" parent="1" source="state" style="endArrow=none;html=1;fontSize=11;" target="rel_state_region" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rel_region" edge="1" parent="1" source="rel_state_region" style="endArrow=none;html=1;fontSize=11;" target="region" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sales_key" edge="1" parent="1" source="sales_key" style="endArrow=none;html=1;fontSize=11;" target="sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sales_d1" edge="1" parent="1" source="sales_d1" style="endArrow=none;html=1;fontSize=11;" target="sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sales_d2" edge="1" parent="1" source="sales_d2" style="endArrow=none;html=1;fontSize=11;" target="sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sales_d3" edge="1" parent="1" source="sales_d3" style="endArrow=none;html=1;fontSize=11;" target="sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prod_rel" edge="1" parent="1" source="prod" style="endArrow=none;html=1;fontSize=11;" target="rel_prod_sales" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rel_sales1" edge="1" parent="1" source="rel_prod_sales" style="endArrow=none;html=1;fontSize=11;" target="sales" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_region_rel" edge="1" parent="1" source="region" style="endArrow=none;html=1;fontSize=11;" target="rel_region_sales" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rel_sales2" edge="1" parent="1" source="rel_region_sales" style="endArrow=none;html=1;fontSize=11;" target="sales" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAC9ka7LF3JudhldsWLg-5" parent="1" style="text;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;autosizeText=1;labelPosition=center;verticalLabelPosition=middle;html=1;whiteSpace=wrap;" value="Per questo esercizio ho analizzato lo scenario ToysGroup e ho individuato le tre entità principali. In più ho aggiunto Category e State come entità a parte, poichè la consegna chiedeva di rappresentare le gerarchie e quindi non potevano essere semplici attributi. Per le cardinalità: sia Product-Sales che Region-Sales sono 1:N poichè un prodotto può avere tante vendite associate, ma ogni vendita è collegata a un solo prodotto e una sola regione.Per le gerarchie ho preferito creare due entità separate collegate con relazione 1:N anzichè mettere la categoria come un semplice campo dentro Product (o lo Stato come Region). Mi sembrava l&#39;unico modo per per far veder la gerarchia e non solo un&#39;informazione in più. Non ho messo tipi di dato da nessuna parte, solo entità, attributi chiave e cardinalità come richiesto dalla consegna." vertex="1">
+          <mxGeometry height="120" width="1430" x="80" y="1230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
