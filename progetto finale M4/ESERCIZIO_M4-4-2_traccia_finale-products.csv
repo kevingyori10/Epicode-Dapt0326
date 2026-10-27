@@ -1,0 +1,13 @@
+ProductID,ProductName,Category,ListPrice
+1,Bici Junior,Outdoor,129.0
+2,Bici BMX,Outdoor,189.0
+3,Monopattino,Outdoor,79.0
+4,Pallone Calcio,Outdoor,19.9
+5,Racchette Beach,Outdoor,14.5
+6,Puzzle 1000,Giochi da tavolo,17.9
+7,Gioco dell'Oca,Giochi da tavolo,12.5
+8,Scacchi Legno,Giochi da tavolo,34.0
+9,Costruzioni 500,Giocattoli,39.9
+10,Bambola Classica,Giocattoli,24.9
+11,Robot RC,Giocattoli,89.0
+12,Macchinina RC,Giocattoli,59.0
